@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const NavLinks = ({ route }) => {
   return (
-    <li>
+    <li className="font-medium">
       <a href={route.path}>{route.name}</a>
     </li>
   );
